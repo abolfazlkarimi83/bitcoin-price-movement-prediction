@@ -1,10 +1,10 @@
-# 📈 Bitcoin Price Movement Prediction
+#  Bitcoin Price Movement Prediction
 
 This project is a machine learning pipeline designed to predict the **next-day price movement of Bitcoin** using historical price data and technical indicators. It covers everything from data preprocessing and visualization to training and evaluating multiple classification models.
 
 ---
 
-## 🧠 Objective
+##  Objective
 
 Predict whether the closing price of Bitcoin will **increase or decrease the next day** using:
 - Technical indicators (moving averages, volatility)
@@ -13,7 +13,7 @@ Predict whether the closing price of Bitcoin will **increase or decrease the nex
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The dataset used in this project contains historical Bitcoin market data including:
 - `Date`, `Open`, `High`, `Low`, `Close`, `Vol.`
@@ -22,7 +22,7 @@ Data source: locally stored CSV file (e.g., from investing.com or kaggle).
 
 ---
 
-## 🔧 Workflow
+##  Workflow
 
 ### 1. Data Cleaning & Preparation
 - Converted date column to datetime format
@@ -52,7 +52,7 @@ Used **ROC AUC Score** to evaluate how well each model distinguishes between pri
 
 ---
 
-## 📊 Results
+##  Results
 
 - The performance of the models was compared using both training and validation ROC AUC scores.
 - Visualization of model performance helped compare generalization capabilities.
@@ -61,7 +61,7 @@ While none of the models achieved extremely high accuracy — which is expected 
 
 ---
 
-## 🧪 Requirements
+##  Requirements
 
 This project uses the following Python libraries:
 - `numpy`, `pandas`
@@ -76,7 +76,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 bitcoin-price-prediction/
@@ -88,7 +88,7 @@ bitcoin-price-prediction/
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project highlights how basic technical indicators and simple machine learning models can be used together to gain insights from historical financial data. Although financial time series prediction is inherently uncertain, combining moving averages and volatility with classification models provides a useful starting point for deeper analysis or integration into trading strategies.
 
